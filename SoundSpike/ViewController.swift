@@ -30,6 +30,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let touch = touches.first
+        let touchPoint:CGPoint = (touches.first?.location(in: self.view))!
+        
+        debugPrint(touchPoint)
+        //x = 208 y = 450
+        
+        if player != nil {
+            player?.volume = (450 - Float(touchPoint.y)) / 450
+        }
+
+        
+    }
+    
     @IBAction func calculateTotalPrice(_ sender: Any) {
 //        let price:Double = Double(priceTxt.text!)!
 //        let salesTax:Double = Double(salesTaxTxt.text!)!
