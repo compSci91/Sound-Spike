@@ -44,6 +44,12 @@ class ViewController: UIViewController {
         
     }
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if player != nil {
+            player?.stop()
+        }
+    }
+    
     @IBAction func calculateTotalPrice(_ sender: Any) {
 //        let price:Double = Double(priceTxt.text!)!
 //        let salesTax:Double = Double(salesTaxTxt.text!)!
