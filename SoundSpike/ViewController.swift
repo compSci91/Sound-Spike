@@ -60,6 +60,8 @@ class ViewController: UIViewController {
                 }
                 
                 player.play()
+                let volume = player.volume
+                print()
             } catch {
                 print("Something went wrong!!!" )
             }
