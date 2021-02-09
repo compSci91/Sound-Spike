@@ -15,6 +15,7 @@
 		CC61ABB325D1F996009AD8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC61ABB125D1F996009AD8D9 /* LaunchScreen.storyboard */; };
 		CC61ABBE25D1F997009AD8D9 /* SoundSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61ABBD25D1F997009AD8D9 /* SoundSpikeTests.swift */; };
 		CC61ABC925D1F997009AD8D9 /* SoundSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61ABC825D1F997009AD8D9 /* SoundSpikeUITests.swift */; };
+		CC61ABDA25D209F6009AD8D9 /* tv-static-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC61ABD925D209F6009AD8D9 /* tv-static-05.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC61ABC425D1F997009AD8D9 /* SoundSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC61ABC825D1F997009AD8D9 /* SoundSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSpikeUITests.swift; sourceTree = "<group>"; };
 		CC61ABCA25D1F997009AD8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC61ABD925D209F6009AD8D9 /* tv-static-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tv-static-05.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CC61ABA525D1F994009AD8D9 /* SoundSpike */ = {
 			isa = PBXGroup;
 			children = (
+				CC61ABD925D209F6009AD8D9 /* tv-static-05.mp3 */,
 				CC61ABA625D1F994009AD8D9 /* AppDelegate.swift */,
 				CC61ABA825D1F994009AD8D9 /* SceneDelegate.swift */,
 				CC61ABAA25D1F994009AD8D9 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				CC61ABB325D1F996009AD8D9 /* LaunchScreen.storyboard in Resources */,
 				CC61ABB025D1F996009AD8D9 /* Assets.xcassets in Resources */,
 				CC61ABAE25D1F994009AD8D9 /* Main.storyboard in Resources */,
+				CC61ABDA25D209F6009AD8D9 /* tv-static-05.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
