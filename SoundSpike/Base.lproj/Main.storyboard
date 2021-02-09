@@ -48,6 +48,13 @@
                                     <action selector="calculateTotalPrice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9w9-LL-dAO"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9GK-ue-XCl">
+                                <rect key="frame" x="89" y="545" width="237" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="mng-Go-Oot"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -56,6 +63,7 @@
                         <outlet property="priceTxt" destination="gVO-lT-o5u" id="dy7-JC-aQG"/>
                         <outlet property="salesTaxTxt" destination="6NM-lh-gTO" id="H6S-xt-zf0"/>
                         <outlet property="totalPriceLbl" destination="iSL-2G-VRm" id="1i0-uL-dsN"/>
+                        <outlet property="volumeSlider" destination="9GK-ue-XCl" id="Wvl-Ou-VTe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

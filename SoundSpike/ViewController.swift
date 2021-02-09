@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var priceTxt: UITextField!
     @IBOutlet weak var salesTaxTxt: UITextField!
     
+    @IBOutlet weak var volumeSlider: UISlider!
     var player:AVAudioPlayer?
     
     override func viewDidLoad() {
@@ -66,8 +67,16 @@ class ViewController: UIViewController {
                 print("Something went wrong!!!" )
             }
         }
+    } // end calculateTotal Price
+    
+    
+    
+    @IBAction func adjustVolume(_ sender: Any) {
+        if player != nil {
+                player?.volume = volumeSlider.value
+            }
     }
-
+    
 
 }
 
